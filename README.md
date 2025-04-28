@@ -17,9 +17,14 @@ Univariate, bivariate, and multivariate analysis accompanied by data visualizati
 
 Dropping of unnecessary columns, removal of any missing values and null values, removal of outliers, correction of incorrectly formatted data, creation of new dataframes with processed data
 
-## **Stage 3:** *Model Creation* 
+## **Stage 3:** *Model Creation & Evaluation* 
 
 * **Model Evaluation:** Creation of train-test-splits followed by implementation of supervised learning method(s). Hyperparameter tuning follows by the training of the initial classifer via Random Search. The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
+
+Model Evaluation of the Logistic Regression, Naive Bayes and the K-Nearest Neighbor Classifiers are located in model_01.ipynb 
+
+Model Evaluation of the Random Forest and the Gradient Boosting Classifier are located in [model_02.ipynb]()
+
 
 * **Linear Regression:** Implemented to understand the linear relationships between the target variable and predictor variables & the linear relationships among other features.
 
