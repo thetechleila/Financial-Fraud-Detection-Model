@@ -1,42 +1,46 @@
-# Financial Fraud Data Set: An Exploratory Data Analysis
+# **Financial Fraud Detection Model**
 ___
 
-## Overiew
+## Project Overiew
 ___
-This project involves an exploratory data analysis (EDA) and the usage of machine learning (ML) strategies to find patterns and trends within the raw synthetic financial transaction data, followed by determining which ML technique(s) work best for capturing as many fradulent transactions as possible while minimizing false positives.
+This project examines a synthetic dataset of bank transactions to see which strategies work best to successfully capture as many fraudulent transactions as possible while minimizing false positives.
 
-___
+Fraud will be identified through focusing on specific features such as transaction type, account balances, and the pre-existing "IsFraud" label where 0 = NotFraud and  1 = IsFraud.
 
-## Features
+The project is broken down into 3 stages, each stored in their own Jupyter Notebook in the folder labeled "code."
 
-* **Exploratory Data Analysis:** univariate, bivariate, and multivariate analysis and data visualizations
+### **Stage 1:** *EDA*
 
-* **Data Preprocessing, Data Cleaning, Data Wrangling:** Dropping of unnecessary columns, removal of any missing values and null values, removal of outliers, correction of incorrectly formatted data, creationn of new dataframes with processed data
+Univariate, bivariate, and multivariate analysis accompanied by data visualizations to provide insight into the raw, unprocessed dataset.
 
-* **Feature Engineering:** Creation of new features during the machine learning model portion  of the project, transformation of existing features in pursuit of discovering hidden patterns
+### **Stage 2:** *Data Preprocessing, Data Cleaning, Data Wrangling*
 
-___
+Dropping of unnecessary columns, removal of any missing values and null values, removal of outliers, correction of incorrectly formatted data, creation of new dataframes with processed data
 
-## Machine Learning Models
+### **Stage 3:** *Model Creation* 
 
-* **Visualizations:** detailed visualizations of the finanical transaction data including distribution plots, box plots, violin plots, etc.
-
-* **Model Evaluation:** Creating train-test-splits followed by implementation of 2 supervised learning methods. Hyperparameter tuning follows after the training  of the initial classifer via Random Search. The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
+* **Model Evaluation:** Creation of train-test-splits followed by implementation of supervised learning method(s). Hyperparameter tuning follows by the training of the initial classifer via Random Search. The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
 
 * **Linear Regression:** Implemented to understand the linear relationships between the target variable and predictor variables & the linear relationships among other features.
 
 ___
-## Tools and Libraries
+### Tools
 
 * Python
 * NumPy for mathmatical & statistical operations
 * Pandas for data manipulation
+* SciPy for statistics, linear algebra, optimization
 * Matplotlib & Seaborn for data visualization
 * Scikit-learn for machine learning and data processing
 * Statsmodels for statistical data exploration
+* Jupyter Notebooks
 
 ___
-## Numerical Variables
+
+## **Data Overview**
+
+___
+### *Numerical Features*
 
 * **Step:** A unit of time that represents hours in the dataset.
 
@@ -55,7 +59,7 @@ ___
 * **IsFraud:** Was this simulated transaction actually fraudulent? In this case, we consider “fraud” to be a malicious transaction that aimed to transfer funds out of a victim’s bank account before the account owner could secure their information. 
 
 ___
-## Categorical Variables
+## Categorical Features
 
 * **Type:** The type of transaction 
 
