@@ -1,7 +1,7 @@
 ![Banner](https://github.com/thetechleila/Financial-Fraud-EDA-and-Classification-Algorithms/blob/main/images/Financial%20Fraud%20Detection%20Banner.png)
 ___
 
-## Project Overiew
+# Project Overiew
 
 This project examines a synthetic dataset of bank transactions to see which strategies work best to successfully capture as many fraudulent transactions as possible while minimizing false positives.
 
@@ -9,15 +9,15 @@ Fraud will be identified through focusing on specific features such as transacti
 
 The project is broken down into 3 stages, each stored in their own Jupyter Notebook in the folder labeled "code."
 
-### **Stage 1:** *EDA*
+## **Stage 1:** *EDA*
 
 Univariate, bivariate, and multivariate analysis accompanied by data visualizations to provide insight into the raw, unprocessed dataset.
 
-### **Stage 2:** *Data Preprocessing, Data Cleaning, Data Wrangling*
+## **Stage 2:** *Data Preprocessing, Data Cleaning, Data Wrangling*
 
 Dropping of unnecessary columns, removal of any missing values and null values, removal of outliers, correction of incorrectly formatted data, creation of new dataframes with processed data
 
-### **Stage 3:** *Model Creation* 
+## **Stage 3:** *Model Creation* 
 
 * **Model Evaluation:** Creation of train-test-splits followed by implementation of supervised learning method(s). Hyperparameter tuning follows by the training of the initial classifer via Random Search. The F1 Score and visualizations are utilized to compare and assess model performances after determining optimal hyperparameters and generating new predictions.
 
