@@ -1,8 +1,8 @@
-# **Financial Fraud Detection Model**
+![Banner](https://github.com/thetechleila/Financial-Fraud-EDA-and-Classification-Algorithms/blob/main/images/Financial%20Fraud%20Detection%20Banner.png)
 ___
 
 ## Project Overiew
-___
+
 This project examines a synthetic dataset of bank transactions to see which strategies work best to successfully capture as many fraudulent transactions as possible while minimizing false positives.
 
 Fraud will be identified through focusing on specific features such as transaction type, account balances, and the pre-existing "IsFraud" label where 0 = NotFraud and  1 = IsFraud.
@@ -24,7 +24,7 @@ Dropping of unnecessary columns, removal of any missing values and null values, 
 * **Linear Regression:** Implemented to understand the linear relationships between the target variable and predictor variables & the linear relationships among other features.
 
 ___
-### Tools
+## Tools
 
 * Python
 * NumPy for mathmatical & statistical operations
